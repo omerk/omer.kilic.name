@@ -1,0 +1,141 @@
+a img {
+	border:0;
+}
+
+a {
+	color: #330066;
+	text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+	padding-left: 2px;
+	letter-spacing:2px;
+    font-size:60pt;
+    margin-bottom: 30px;
+    margin-top: 10%;
+}
+
+h1 span {
+	padding-left: 2px;
+	letter-spacing:2px;
+	font-size:60pt;
+}
+
+h1:hover span {
+	display:none;
+}
+
+h1:hover:before {
+	content:"Ömer Kılıç";
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+code {
+	font-family:'Inconsolata', monospace;
+}
+
+#main,#elsewhere,#previously,#contact,#talks {
+	list-style:none;
+}
+
+#main li {
+    
+    padding-bottom:10px;
+
+}
+
+#main {
+    padding-bottom:50px;
+}
+
+.fa-linkedin {
+    font-size: 25px;
+}
+
+#also {
+	list-style:none;
+	padding-top:10px;
+}
+
+#also li {
+	margin-left:3px;
+    display:inline;
+    font-size: 30px;
+}
+
+#also > li:first-child {
+	margin-left:20px;
+}
+
+#elsewhere li {
+	margin-left:20px;
+	padding-bottom:5px;
+}
+
+#elsewhere li:before {
+	content:"\00BB \0020";
+}
+
+#elsewhere > li:first-child {
+	padding-top:10px;
+}
+
+#previously li {
+	margin-left:20px;
+	padding-bottom:5px;
+}
+
+#previously li:before {
+	content:"\00BB \0020";
+}
+
+#previously > li:first-child {
+	padding-top:10px;
+}
+
+#contact li {
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#talks li {
+	margin-top:10px;
+	margin-left:20px;
+}
+
+summary::-webkit-details-marker {
+    color: #00ACF3;
+    font-size: 125%;
+    margin-right: 2px;
+   }
+   summary:focus {
+       outline-style: none;
+   }
+   article > details > summary {
+       font-size: 28px;
+       margin-top: 16px;
+   }
+   details > p {
+       margin-left: 20px;
+   }
+
+
+.talk-title {
+    font-size: 15px;
+}
+
+#profile {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+summary:hover {
+    cursor: pointer;
+}
